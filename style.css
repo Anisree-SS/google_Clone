@@ -1,0 +1,205 @@
+*{
+ padding: 0;
+ margin:0;
+ box-sizing: border-box;
+ text-decoration: none;
+ font-family: arial, sans-serif;
+}
+body {
+ display: flex;
+ flex-direction: column;
+ min-height: 100vh;
+ background-image: url(./assets/bg.jpg);
+ background-size: cover;
+  background-position: center;
+}
+nav {
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
+ margin-right: 10px;
+ margin-top: 14px;
+}
+nav a {
+ font-size: 13px;
+ display: inline-block;
+ line-height: 24px;
+ font-weight: 400;
+ color: rgb(0,0,0, 0.87);
+ cursor: pointer;
+ padding: 5px 6px
+}
+
+nav img {
+ width: 34px;
+ padding: 5px;
+ margin: auto 7px;
+ cursor: pointer;
+ fill: #ddd;
+}
+
+nav button {
+ border: 1px solid #4285f4;
+ font-weight: bold;
+ outline: none;
+ background: #4285f4;
+ color: #fff;
+ padding: 7px 15px;
+ border-radius: 4.8%;
+ margin-left: 7px;
+ cursor: pointer;
+}
+.section-1 {
+ flex: 1;
+}
+.section-1 .logo {
+ display: flex;
+ margin: 0px auto;
+ margin-top: 107px;
+font-family: segoe UI,Tahoma,, sans-serif;
+ color: #fff;
+ align-items: center;
+ justify-content: center;
+ font-size: 76px;
+}
+.s-box {
+ width: 600px;
+ margin: 0px auto;
+ position: relative;
+ margin-top: -8px;
+ text-align: center;
+}
+.s-box .s-input {
+ display: block;
+ border: 1px solid #ddd;
+ color: rgba(0,0,0, 0.87);
+ font-size: 16px;
+ font-family: 'Roboto', sans-serif;
+ padding: 15px;
+ padding-left: 45px;
+ border-radius: 25px;
+ width: 100%;
+  box-shadow: 10px 10px 5px grayy;
+ outline: none;
+border: 1px solid #ccc;
+}
+
+.s-box .search-icon {
+ width: 20px;
+ position: absolute;
+ opacity: .6;
+ top: 16px;
+ left: 14px;
+}
+.s-box .vs-icon {
+ position: absolute;
+ width: 35px;
+ top: 10px;
+ right: 50px;
+}
+.s-box .mp-icon {
+ width: 27px;
+ position: absolute;
+ top: 12px;
+ right: 13px;
+}
+.shorts{
+width:100%;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+padding: 0;
+margin: 0;
+}
+
+.shortcut{
+ display: flex;
+ flex-direction: column;
+ position: relative;
+ top: 13%;
+ right: 24px;
+ margin-top: 7%;
+ margin-left: 40%;
+ width: 7.5%;
+}	
+
+.shortcut1{
+ display: flex;
+ flex-direction: column;
+ position: relative;
+ font-size: 40px;
+ top: 13%;
+ right: 250px;
+ margin-top: 7%;
+ margin-left: 50%;
+ width: 8%;
+	
+}
+.yti{
+  border-radius: 20%;
+  font-weight:00
+ font-size: 13px;
+ font-family: segoe UI,Tahoma,sans-serif;
+
+}
+.plus{
+ background-color: #ffff;
+ border-radius: 50%;
+ font-weight:00 ;
+
+}
+.add{
+ font-weight: 100;
+ font-size: 13px;
+ width: 100%;
+ padding-top: 20%;
+ color: #fff;
+}
+.g-i{
+ color: #fff;
+ margin-top:1%;
+ font-family: arial,sans-serif;
+}
+.icon{
+height:27px;
+width:27px;
+ margin-top:1.05%;
+}
+.customize{
+	position: relative;
+	padding-left: 91.5%;
+	padding-bottom: 2%;
+}
+.customize button{
+	background-color: #ffff;
+	border: 0;
+	padding: 7px;
+	border-radius: 45px;
+	align-items:end;
+        position: absolute;
+}
+.pencil{
+      position: absolute;
+	width: 15px;
+	right:120px;
+	padding: 0;
+}
+.icon1{
+border-radius: 45%;
+ margin-top:0.9%;
+ margin-:1%;
+}
+.cust {
+ width:150px;
+ margin: 0px auto;
+ position: relative;
+ margin-top: 10px;
+ text-align: center;
+display: block;
+height:30px;
+font-family: segoe UI,Tahoma,sans-serif;
+border-radius: 25px;
+ border:1px solid #ddd;
+color:#0000;
+}
+
